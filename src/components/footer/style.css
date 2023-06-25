@@ -1,0 +1,50 @@
+.footer {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 40px;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+
+.marquee-wrapper {
+  background-color: none !important;
+}
+
+.marquee-container {
+  overflow-x: hidden !important;
+  display: flex !important;
+  flex-direction: row !important;
+  position: relative;
+  width: 100%;
+}
+
+.footer .marquee {
+  flex: 0 0 auto;
+  min-width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: RLfloat 20s infinite linear;
+}
+
+.footer .title-img {
+  height: 25px;
+  margin: 0 10px;  
+}
+
+.footer .star-img {
+  height: 40px;
+  transform: rotateY(180deg);
+}
+
+
+@keyframes RLfloat {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
