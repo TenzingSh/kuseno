@@ -1,0 +1,48 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: Cabin !important;
+  margin: 0;
+}
+
+.text-medium {
+  font-family: Sniglet !important;
+}
+
+.text-small {
+  font-family: Cabin !important;
+}
+
+.text-large {
+  font-family: Sniglet !important;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: initial;
+}
+
+.mark-img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  opacity: 0.3;
+}
+
+@media (max-width:479px) {
+  .mark-img {
+    width: 100%;
+  }
+} 

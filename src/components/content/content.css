@@ -1,0 +1,201 @@
+.button {
+  font-family: SnigletBold;
+  padding: 5px 20px;
+  display: inline-block;
+  border: 3px solid #563CFF;
+  border-radius: 100px;
+  box-shadow: 6px 6px 0 0 #563CFF;
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .25s ease-in-out;
+}
+
+.button:hover {
+  color: #FFFFFF !important;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translate3D(6px, 6px, 0);
+  cursor: pointer;
+}
+
+.wallet-container {
+  padding: 20px 10%;
+  display: flex;
+  justify-content: end;
+}
+
+
+
+.wallet-btn-body {
+  background-color: #b25ce3;
+  color: #FFFFFF;
+  /* background-color: #FFFFFF; */
+}
+
+.mint-btn-body {
+  background-color: #b25ce3;
+  color: #FFFFFF;
+}
+
+.wallet-btn-text {
+  font-family: SnigletBold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet-btn-text img {
+  width: 30px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.mint-info {
+  display: flex;
+  justify-content: center;
+}
+
+.mint-info-contain {
+  width: 500px;
+  margin: auto;
+}
+
+.mint-info-contain h1 {
+  font-family: Sniglet;
+  font-size: 80px;
+  font-weight: bold;
+  color: #563CFF;
+  margin-bottom: 100px;
+}
+
+.mint-info-contain p {
+  font-family: Cabin;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.mint-info-contain .mint-price {
+  font-family: Sniglet;
+  font-weight: bold;
+}
+
+
+.mint-box {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+}
+
+.mint-box p {
+  font-family: ChangaOne;
+  color: #000000;
+  font-size: 30px;
+}
+
+.mint-box .mint-left {
+  color: #EB58E7;
+  font-size: 58px;
+}
+.mint-box p {
+  margin: 0;
+}
+
+.mint-actions {
+  top: -20px;
+  position: relative;
+}
+
+#mint_count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+#mint_count input {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 150px;
+  border: none;
+  background-color: #eff2f7; 
+  color: #AD6EC9;
+  height: 100%;
+  padding: 0 !important;
+  border-top: 5px solid #AD6EC9;
+  border-bottom: 5px solid #AD6EC9;
+}
+
+#mint_count button {
+  padding: auto;
+  background-color: #eff2f7; 
+  color: #000; 
+  border: none; 
+  font-size: 30px;
+  font-weight: bold;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+#mint_count .minus-btn {
+  border-radius: 30px 0 0 30px;
+  border-left: 5px solid #AD6EC9;
+  border-top: 5px solid #AD6EC9;
+  border-bottom: 5px solid #AD6EC9;
+}
+
+#mint_count .plus-btn {
+  border-radius: 0 30px 30px 0;
+  border-right: 5px solid #AD6EC9;
+  border-top: 5px solid #AD6EC9;
+  border-bottom: 5px solid #AD6EC9;
+}
+
+.row {
+  width: 100% !important;
+}
+
+
+@media (max-width:991px) {
+  .wallet-btn-text {
+    font-size: 15px;
+  }
+  .wallet-btn-text img { 
+    width: 20px;
+  }
+  .wallet-container {
+    padding: 20px 5%;
+  }
+  .mint-info-contain {
+    text-align: center;
+  }
+  .mint-info-contain h1 { 
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .mint-box { 
+    width: 100%;
+  }
+
+}
